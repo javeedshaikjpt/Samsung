@@ -1,0 +1,33 @@
+#topicsCntr {
+  width: 1440px;
+  height: 328px;
+  margin: auto;
+}
+
+#tabHead {
+  margin: auto;
+  text-align: center;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+td {
+  width: 254px;
+  height: 34px;
+  padding: 50px 0px 24px 0px;
+  font-size: 15px;
+  font-weight: bold;
+  /*font: inherit;*/
+}
+
+table {
+  margin: auto;
+}
+
+/*#list {*/
+/*width: 1209px;*/
+/*height: 328px;*/
+/*margin: 0px 115px;*/
+/*padding: 0px;*/
+/*list-style: none;*/
+/*}*/

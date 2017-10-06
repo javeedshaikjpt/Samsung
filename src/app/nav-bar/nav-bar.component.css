@@ -1,0 +1,30 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  color: black;
+}
+
+.border{
+  background: #F7F7F7;
+}
+
+.effect:hover{
+  background: #FFFFFF;
+  margin-top: 10px;
+}
+img{
+  /*margin-top: -15px;*/
+  margin-left: 5px;
+}
+@media screen and (min-width:768px){
+  .navbar-brand-centered {
+    position: absolute;
+    left: 45%;
+    display: block;
+    width: 150px;
+    text-align: center;
+    background-color: #fff;
+    /*margin-top: 12px;*/
+  }
+
+}

@@ -1,0 +1,36 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+
+<div class="ctr">
+  <div class="ctrHead">
+    <div id="productSelect">
+      <span> Select your product type </span>
+      <div id="modelNumber">ENTER MODEL NUMBER</div>
+    </div>
+  </div>
+  <br><br>
+  <div>
+    <ul class="list-group list-inline">
+      <li class="list-group-item" *ngFor = "let image of images">
+        <div class="imgDiv">
+          <img [src]="image.url" class="img-fluid" alt="Responsive image">
+        </div>
+        <h5 style="height: 19px"> {{image.name}} </h5>
+      </li>
+    </ul>
+  </div>
+  <br><br>
+
+  <!--<div>-->
+    <!--<ul class="list-group list-inline">-->
+      <!--<li class="list-group-item" *ngFor = "let image of images">-->
+        <!--<div class="imgWrapper">-->
+          <!--<img [src]="image.url" class="img-responsive" alt="Responsive image">-->
+        <!--</div>-->
+        <!--<h5 style="height: 19px"> {{image.name}} </h5>-->
+      <!--</li>-->
+    <!--</ul>-->
+  <!--</div>-->
+</div>
+
+
