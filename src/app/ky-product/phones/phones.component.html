@@ -1,0 +1,20 @@
+
+<div class="ctr">
+  <div class="ctrHead">
+    <div id="productSelect">
+      <span> What kind of phone do you have? </span>
+      <div id="modelNumber">ENTER MODEL NUMBER</div>
+    </div>
+  </div>
+  <br><br>
+  <div>
+    <ul class="list-group list-inline">
+      <li class="list-group-item" *ngFor = "let image of images">
+        <div class="imgDiv">
+          <img [src]="image.url" class="img-fluid" alt="Responsive image">
+        </div>
+        <h5 style="height: 19px"> {{image.name}} </h5>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -6,7 +6,7 @@
     padding: 28px;
     margin: 0px 5px 5px 0px;
     display: inline-block;
-    width: 184px;
+    width: 185px;
     text-align: center;
     border: solid 1px #D2D2D2;
     vertical-align: top;
@@ -31,7 +31,7 @@
   ul {
     width: 1154px;
     height: 194px;
-    margin: 0px 143px;
+    margin-left: auto;
     padding: 0px;
   }
 }
@@ -48,7 +48,7 @@
 /* ----------------you could delete if you don't like------------------*/
 
 /*imgWrapper  {*/
-  /*width: 10%;*/
+/*width: 10%;*/
 /*}*/
 /* --------------------------------------------------------------------*/
 h5 {
