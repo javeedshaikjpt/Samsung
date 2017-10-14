@@ -1,5 +1,5 @@
-.effect:hover{
+.effect:active{
   background: #FFFFFF;
-  margin-top: 10px;
+  top: -10px;
 }
 
